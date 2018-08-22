@@ -1,15 +1,21 @@
+/*
+ * Utils
+*/
+
 .bg-green {
     background-color: #135b53
 }
-
 .text-green {
     color: #135b53;
     border-color: #135b53
 }
-
 .text-border {
     text-shadow: 0 0 1px black, 0 0 1px black;
 }
+
+/*
+ * Overrides
+*/
 
 #map_canvas{
     height: 215px;
@@ -17,9 +23,24 @@
     margin-top: 25px;
     margin-bottom: 15px
 }
-
 .carousel-item .carousel-caption > h3, .carousel-item .carousel-caption > a, .carousel-item .carousel-caption > p{
-    /* height: 100vh !important; */
     color: white !important;
     border-color: white !important; 
 }
+.nav-link {
+    color: #fff
+}
+.nav-link:hover {
+    opacity: 0.8;
+    color: #fff
+}
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
