@@ -1,5 +1,5 @@
 (function($) {
-    const myLatLng = new google.maps.LatLng(-28.7498764, -49.4573862);
+    const myLatLng = new google.maps.LatLng(-28.9419717,-49.4982779);
 
     const mapOptions = {
         zoom: 16,
