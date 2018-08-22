@@ -14,6 +14,6 @@
         position: myLatLng,
         map: map,
         title: '',
-        icon: 'http://scvita.com/img/1.png',
+        icon: 'https://scvita.com.br/img/pointer.png',
     });
 })(window.JQuery)
