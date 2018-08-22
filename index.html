@@ -1,1 +1,138 @@
-<h1>Teste</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="souzaramon">
+        <title>SC-VITA: Projetos e Consultoria Ambiental</title>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/half-slider.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/custom.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-green">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <strong>SC VITA</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active" style="background-image: url('http://scvita.com/img/s3.jpg')">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Comprometimento</h3>
+                            <p>Trabalhamos para atender suas necessidades.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('http://www.imediatasaudeambiental.com.br/wp/wp-content/uploads/2013/12/slideshow-eco-4-1.jpg')">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>O que fazemos?</h3>
+                            <a href="#" class="btn btn-outline-info">
+                                Conheça nossos serviços e seja tambem um cliente.
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('http://redwoodcoastmusicfestivals.org/wp-content/uploads/2018/07/Contact-us-2.jpg')">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="text-border">Entre em contato!</h3>
+                            <p class="">É um prazer falar com você.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </header>
+
+        <section class="py-5">
+            <div class="container">
+                <h1>Sobre a SC-VITA</h1>
+                <p>
+                    A <strong>“SC Vita – Projetos e Consultoria Ambiental”</strong> é uma empresa de consultoria e serviços ambientais diferenciada, inovadora, 
+                    altamente competitiva e sustentável, com seu negócio totalmente orientado para as necessidades de seus clientes, sempre respeitando 
+                    os requisitos legais, as boas técnicas e a ética ambiental. 
+                </p>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <h2>
+                    Nossos Serviços
+                </h2>
+                <hr>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <h2>
+                    Fale conosco
+                </h2>
+                <hr>
+                    <p><i class="fab fa-whatsapp" aria-hidden="true"> </i> (48) 99621-6965</p>
+                    <p><i class="fa fa-envelope" aria-hidden="true"> </i> projetos@scvita.com</p>
+                    <p><i class="fa fa-map-marker"> </i> Rodovia Gabriel Arns, 4850 - Saturno, Forquilhinha / SC</p>
+                    <div id="map_canvas"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-4 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">&copy; SC-VITA -  
+                    <script>
+                        document.write(
+                            new Date().getFullYear()
+                        )
+                    </script>
+                </p>
+            </div>
+        </footer>
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPvJh9GO_EBFtFV7EVBZlXIYqAZeloDCk"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>

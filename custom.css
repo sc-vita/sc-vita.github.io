@@ -1,0 +1,19 @@
+.bg-green {
+    background-color: #135b53
+}
+
+.text-green {
+    color: #135b53;
+    border-color: #135b53
+}
+
+.text-border {
+    text-shadow: 0 0 1px black, 0 0 1px black;
+}
+
+#map_canvas{
+    height: 215px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 15px
+}
