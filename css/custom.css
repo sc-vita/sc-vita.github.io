@@ -42,5 +42,47 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
+
+/* Custom */
+#sobre {
+    padding-bottom: 0 !important
+}
+
+#services-list {
+    margin-top: 40px
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #135b53
+}
+
+.services-list-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.services-list-item:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
   
+.services-list-item span {
+    text-align: center;
+    color: #135b53;
+    font-weight: 600
+}
+
+.icon-container i {
+    font-size: 25px;
+    color: #135b53
+}
